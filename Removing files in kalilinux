@@ -1,0 +1,8 @@
+Comand rm
+
+rm nume_fisier
+
+#
+
+rm fisier1 fisier2 fisier3
+rm fisier*
