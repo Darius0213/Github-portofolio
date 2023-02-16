@@ -1,0 +1,215 @@
+                                                                               
+┌──(root㉿kali)-[~]
+└─# cd IP-Locator
+                                                                                 
+┌──(root㉿kali)-[~/IP-Locator]
+└─# ls
+ip-locator.pl  README.md
+                                                                                 
+┌──(root㉿kali)-[~/IP-Locator]
+└─# cd README.md
+cd: not a directory: README.md
+                                                                                 
+┌──(root㉿kali)-[~/IP-Locator]
+└─# cat README.md
+# IP-Locator
+ retrieve informations about an ip adress or a hostname
+ This tool is scripted in perl as you can tell    -_-         
+ before opening the tool use this command  chmod +x ip-locator.pl
+its nothing special it just provides information from this website
+http://ip-api.com/ check it out
+th4nks for using our tool
+                                                                                 
+┌──(root㉿kali)-[~/IP-Locator]
+└─# chmod +x ip-locator.pl
+                                                                                 
+┌──(root㉿kali)-[~/IP-Locator]
+└─# ls
+ip-locator.pl  README.md
+                                                                                 
+┌──(root㉿kali)-[~/IP-Locator]
+└─# ./ip-locator.pl              
+
+                                                                                 
+      _____          _                _                                          
+     |__  /         | |__   __ _  ___| | _____ _ __                              
+       / /   _____  | '_ \ / _` |/ __| |/ / _ \ '__|                             
+      / /_  |_____| | | | | (_| | (__|   <  __/ |                                
+     /____|         |_| |_|\__,_|\___|_|\_\___|_|                                
+                                                                                 
+             ___ ____            _                 _                             
+            |_ _|  _ \          | | ___   ___ __ _| |_ ___  _ __                 
+             | || |_) |  _____  | |/ _ \ / __/ _` | __/ _ \| '__|                
+             | ||  __/  |_____| | | (_) | (_| (_| | || (_) | |                   
+            |___|_|             |_|\___/ \___\__,_|\__\___/|_|                   
+                                                                                 
+                                                                                 
+                  Ip Geolocation Tool                                            
+                  By : Z-hacker                                                  
+                                                                                 
+       ------------------------------------                                      
+             [FOLLOW US ON YOUTUBE]          :. https://goo.gl/83QFyp .:         
+       ------------------------------------                                      
+Usage : ./ip-locator.pl  [Targets IP]                                            
+        ./ip-locator.pl  [domain]                                                
+        ./ip-locator.pl  [host]                                                  
+                                                                                 
+                                                                                 
+┌──(root㉿kali)-[~/IP-Locator]
+└─# ./ip-locator.pl 180.232.70.146
+
+                                                                                 
+      _____          _                _                                          
+     |__  /         | |__   __ _  ___| | _____ _ __                              
+       / /   _____  | '_ \ / _` |/ __| |/ / _ \ '__|                             
+      / /_  |_____| | | | | (_| | (__|   <  __/ |                                
+     /____|         |_| |_|\__,_|\___|_|\_\___|_|                                
+                                                                                 
+             ___ ____            _                 _                             
+            |_ _|  _ \          | | ___   ___ __ _| |_ ___  _ __                 
+             | || |_) |  _____  | |/ _ \ / __/ _` | __/ _ \| '__|                
+             | ||  __/  |_____| | | (_) | (_| (_| | || (_) | |                   
+            |___|_|             |_|\___/ \___\__,_|\__\___/|_|                   
+                                                                                 
+                                                                                 
+                  Ip Geolocation Tool                                            
+                  By : Z-hacker                                                  
+                                                                                 
+       ------------------------------------                                      
+             [FOLLOW US ON YOUTUBE]          :. https://goo.gl/83QFyp .:         
+       ------------------------------------                                      
+     [!] IP: 180.232.70.146                                                      
+-----------------------------------------                                        
+     [+] ORG: AS9658 Eastern Telecoms Phils., Inc.                               
+     [+] ISP: Eastern Telecommunications Philippines, Inc.                       
+     [+] Country: Philippines - PH                                               
+     [+] Region: Central Visayas - 07                                            
+     [+] City: Mandaue City                                                      
+     [!] Location: Might not be accurate                                         
+     [+] Geo: Latitude: 10.3236 - Longitude: 123.922                             
+     [+] Geolocation: Lat: 10.3236 - Lat: 10.3236                                
+     [+] Timezone: timezone: Asia/Manila - Long: Asia/Manila                     
+     [+] As number/name: as: AS9658 Eastern Telecoms Phils., Inc. - Long: AS9658 Eastern Telecoms Phils., Inc.                                                    
+     [+] ORG name: AS9658 Eastern Telecoms Phils., Inc.                          
+     [+] Country code: PH                                                        
+     [+] Status: success                                                         
+                                                                                 
+                                                                                 
+┌──(root㉿kali)-[~/IP-Locator]
+└─# ./ip-locator.pl 91.204.208.210
+
+                                                                                 
+      _____          _                _                                          
+     |__  /         | |__   __ _  ___| | _____ _ __                              
+       / /   _____  | '_ \ / _` |/ __| |/ / _ \ '__|                             
+      / /_  |_____| | | | | (_| | (__|   <  __/ |                                
+     /____|         |_| |_|\__,_|\___|_|\_\___|_|                                
+                                                                                 
+             ___ ____            _                 _                             
+            |_ _|  _ \          | | ___   ___ __ _| |_ ___  _ __                 
+             | || |_) |  _____  | |/ _ \ / __/ _` | __/ _ \| '__|                
+             | ||  __/  |_____| | | (_) | (_| (_| | || (_) | |                   
+            |___|_|             |_|\___/ \___\__,_|\__\___/|_|                   
+                                                                                 
+                                                                                 
+                  Ip Geolocation Tool                                            
+                  By : Z-hacker                                                  
+                                                                                 
+       ------------------------------------                                      
+             [FOLLOW US ON YOUTUBE]          :. https://goo.gl/83QFyp .:         
+       ------------------------------------                                      
+     [!] IP: 91.204.208.210                                                      
+-----------------------------------------                                        
+     [+] ORG: AS52148 Enix Ltd                                                   
+     [+] ISP: Enix Ltd                                                           
+     [+] Country: United Kingdom - GB                                            
+     [+] Region: England - ENG                                                   
+     [+] City: London                                                            
+     [!] Location: Might not be accurate                                         
+     [+] Geo: Latitude: 51.5074 - Longitude: -0.127758                           
+     [+] Geolocation: Lat: 51.5074 - Lat: 51.5074                                
+     [+] Timezone: timezone: Europe/London - Long: Europe/London                 
+     [+] As number/name: as: AS52148 Enix Ltd - Long: AS52148 Enix Ltd           
+     [+] ORG name: AS52148 Enix Ltd                                              
+     [+] Country code: GB                                                        
+     [+] Status: success                                                         
+                                                                                 
+                                                                                 
+┌──(root㉿kali)-[~/IP-Locator]
+└─# ./ip-locator.pl 176.56.103.122
+
+                                                                                 
+      _____          _                _                                          
+     |__  /         | |__   __ _  ___| | _____ _ __                              
+       / /   _____  | '_ \ / _` |/ __| |/ / _ \ '__|                             
+      / /_  |_____| | | | | (_| | (__|   <  __/ |                                
+     /____|         |_| |_|\__,_|\___|_|\_\___|_|                                
+                                                                                 
+             ___ ____            _                 _                             
+            |_ _|  _ \          | | ___   ___ __ _| |_ ___  _ __                 
+             | || |_) |  _____  | |/ _ \ / __/ _` | __/ _ \| '__|                
+             | ||  __/  |_____| | | (_) | (_| (_| | || (_) | |                   
+            |___|_|             |_|\___/ \___\__,_|\__\___/|_|                   
+                                                                                 
+                                                                                 
+                  Ip Geolocation Tool                                            
+                  By : Z-hacker                                                  
+                                                                                 
+       ------------------------------------                                      
+             [FOLLOW US ON YOUTUBE]          :. https://goo.gl/83QFyp .:         
+       ------------------------------------                                      
+     [!] IP: 176.56.103.122                                                      
+-----------------------------------------                                        
+     [+] ORG: AS29119 AIRE NETWORKS DEL MEDITERRANEO SL UNIPERSONAL              
+     [+] ISP: Aire Networks Del Mediterraneo SL Unipersonal                      
+     [+] Country: Spain - ES                                                     
+     [+] Region: Valencia - VC                                                   
+     [+] City: El Altet                                                          
+     [!] Location: Might not be accurate                                         
+     [+] Geo: Latitude: 38.2403 - Longitude: -0.53926                            
+     [+] Geolocation: Lat: 38.2403 - Lat: 38.2403                                
+     [+] Timezone: timezone: Europe/Madrid - Long: Europe/Madrid                 
+     [+] As number/name: as: AS29119 AIRE NETWORKS DEL MEDITERRANEO SL UNIPERSONAL - Long: AS29119 AIRE NETWORKS DEL MEDITERRANEO SL UNIPERSONAL                  
+     [+] ORG name: AS29119 AIRE NETWORKS DEL MEDITERRANEO SL UNIPERSONAL         
+     [+] Country code: ES                                                        
+     [+] Status: success                                                         
+                                                                                 
+                                                                                 
+┌──(root㉿kali)-[~/IP-Locator]
+└─# ./ip-locator.pl facebook.com  
+
+                                                                                 
+      _____          _                _                                          
+     |__  /         | |__   __ _  ___| | _____ _ __                              
+       / /   _____  | '_ \ / _` |/ __| |/ / _ \ '__|                             
+      / /_  |_____| | | | | (_| | (__|   <  __/ |                                
+     /____|         |_| |_|\__,_|\___|_|\_\___|_|                                
+                                                                                 
+             ___ ____            _                 _                             
+            |_ _|  _ \          | | ___   ___ __ _| |_ ___  _ __                 
+             | || |_) |  _____  | |/ _ \ / __/ _` | __/ _ \| '__|                
+             | ||  __/  |_____| | | (_) | (_| (_| | || (_) | |                   
+            |___|_|             |_|\___/ \___\__,_|\__\___/|_|                   
+                                                                                 
+                                                                                 
+                  Ip Geolocation Tool                                            
+                  By : Z-hacker                                                  
+                                                                                 
+       ------------------------------------                                      
+             [FOLLOW US ON YOUTUBE]          :. https://goo.gl/83QFyp .:         
+       ------------------------------------                                      
+     [!] IP: 185.60.218.35                                                       
+-----------------------------------------                                        
+     [+] ORG: AS32934 Facebook, Inc.                                             
+     [+] ISP: Facebook, Inc.                                                     
+     [+] Country: Romania - RO                                                   
+     [+] Region: Bucharest - B                                                   
+     [+] City: Bucharest                                                         
+     [!] Location: Might not be accurate                                         
+     [+] Geo: Latitude: 44.405 - Longitude: 26.0718                              
+     [+] Geolocation: Lat: 44.405 - Lat: 44.405                                  
+     [+] Timezone: timezone: Europe/Bucharest - Long: Europe/Bucharest           
+     [+] As number/name: as: AS32934 Facebook, Inc. - Long: AS32934 Facebook, Inc.                                                                                
+     [+] ORG name: AS32934 Facebook, Inc.                                        
+     [+] Country code: RO                                                        
+     [+] Status: success 
