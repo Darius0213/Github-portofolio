@@ -1,0 +1,8 @@
+# Creeaza fisierele "file1" si "file2"
+touch file1 file2
+
+# Modifica numele fisierului "file1" in "file3"
+mv file1 file3
+
+# Modifica numele fisierului "file2" in "file4"
+mv file2 file4
