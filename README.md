@@ -1,5 +1,6 @@
 # Github-portofolio
 #Aplicatie python pentru generare parole instagram ale unui user predefinit
+
 import random
 import string
 
